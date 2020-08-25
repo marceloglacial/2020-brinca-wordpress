@@ -58,11 +58,11 @@
       "web/app/mu-plugins/{$name}/": [
         "wpackagist-plugin/nginx-helper",
         "wpackagist-plugin/sendgrid-email-delivery-simplified",
-        "humanmade/s3-uploads",
-        "wpackagist-plugin/gutenberg"
+        "humanmade/s3-uploads"
       ],
       "web/app/plugins/{$name}/": [
-        "wpackagist-plugin/debug-bar"
+        "wpackagist-plugin/debug-bar",
+        "wpackagist-plugin/gutenberg"
       ],
       "web/app/themes/{$name}/": [
         "type:wordpress-theme"

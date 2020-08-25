@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea08c616ae39f36a8c8fa4b210156871",
+    "content-hash": "6160fbff0147e7d412c1ba6022a47820",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -508,6 +508,42 @@
             "description": "A memcached HTML page cache for WordPress. Fork of the automattic/batcache.",
             "homepage": "https://github.com/frc/batcache",
             "time": "2017-10-30T07:18:18+00:00"
+        },
+        {
+            "name": "humanmade/s3-uploads",
+            "version": "v2.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/S3-Uploads.git",
+                "reference": "d3c8d81fa57e4535271fbe47c9cef2e54b54da3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/d3c8d81fa57e4535271fbe47c9cef2e54b54da3c",
+                "reference": "d3c8d81fa57e4535271fbe47c9cef2e54b54da3c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "support@humanmade.co.uk",
+                    "homepage": "http://hmn.md/"
+                }
+            ],
+            "description": "WordPress plugin to store uploads on S3",
+            "homepage": "https://github.com/humanmade/S3-Uploads",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2017-03-15T04:01:31+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -3892,7 +3928,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "frc/batcache": 15
+        "frc/batcache": 15,
+        "humanmade/s3-uploads": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
