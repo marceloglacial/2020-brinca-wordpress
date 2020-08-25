@@ -1,6 +1,35 @@
-composer.phar
-/vendor/
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/themes/*
+!web/app/themes/.gitkeep
 
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+# WordPress
+web/wp
+web/.htaccess
+
+# Dotenv
+.env
+
+# Composer
+/vendor
+!vendor/.gitkeep
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# WP Plugins
+web/app/object-cache.php
+web/app/advanced-cache.php
