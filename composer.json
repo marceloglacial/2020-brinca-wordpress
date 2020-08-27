@@ -42,7 +42,9 @@
     "wpackagist-plugin/redis-cache": "1.3.5",
     "predis/predis": "1.1.1",
     "wpackagist-plugin/debug-bar": "0.9",
-    "wpackagist-plugin/gutenberg": "8.8.0"
+    "wpackagist-plugin/gutenberg": "8.8.0",
+    "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn": "2.1.9",
+    "wpackagist-plugin/polylang": "2.8.1"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*",
@@ -57,7 +59,9 @@
       "web/app/mu-plugins/{$name}/": [
         "wpackagist-plugin/nginx-helper",
         "wpackagist-plugin/sendgrid-email-delivery-simplified",
-        "wpackagist-plugin/gutenberg"
+        "wpackagist-plugin/gutenberg",
+        "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
+        "wpackagist-plugin/polylang"
       ],
       "web/app/plugins/{$name}/": [
         "wpackagist-plugin/debug-bar"
