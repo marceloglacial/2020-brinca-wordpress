@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "476db7048a56bf08f20201c67ad3e70c",
+    "content-hash": "53466a81989b5259bd8757793241866e",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -498,32 +498,6 @@
             "time": "2020-08-19T10:27:58+00:00"
         },
         {
-            "name": "frc/batcache",
-            "version": "v1.3-a2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/frc/batcache.git",
-                "reference": "49ecb51a1710e9559b870fbdecda3c7015e54abb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/frc/batcache/zipball/49ecb51a1710e9559b870fbdecda3c7015e54abb",
-                "reference": "49ecb51a1710e9559b870fbdecda3c7015e54abb",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-muplugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "A memcached HTML page cache for WordPress. Fork of the automattic/batcache.",
-            "homepage": "https://github.com/frc/batcache",
-            "time": "2017-10-30T07:18:18+00:00"
-        },
-        {
             "name": "johnpbloch/wordpress",
             "version": "5.5.1",
             "source": {
@@ -891,56 +865,6 @@
                 "env"
             ],
             "time": "2019-04-03T18:28:43+00:00"
-        },
-        {
-            "name": "predis/predis",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/predis/predis.git",
-                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/predis/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
-                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.8"
-            },
-            "suggest": {
-                "ext-curl": "Allows access to Webdis when paired with phpiredis",
-                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Predis\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniele Alessandri",
-                    "email": "suppakilla@gmail.com",
-                    "homepage": "http://clorophilla.net"
-                }
-            ],
-            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
-            "homepage": "http://github.com/nrk/predis",
-            "keywords": [
-                "nosql",
-                "predis",
-                "redis"
-            ],
-            "time": "2016-06-16T16:22:20+00:00"
         },
         {
             "name": "psr/container",
@@ -3736,24 +3660,6 @@
             "homepage": "https://wordpress.org/plugins/cloudinary-image-management-and-manipulation-in-the-cloud-cdn/"
         },
         {
-            "name": "wpackagist-plugin/debug-bar",
-            "version": "0.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/debug-bar/",
-                "reference": "tags/0.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/debug-bar.0.9.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/debug-bar/"
-        },
-        {
             "name": "wpackagist-plugin/gutenberg",
             "version": "8.8.0",
             "source": {
@@ -3772,24 +3678,6 @@
             "homepage": "https://wordpress.org/plugins/gutenberg/"
         },
         {
-            "name": "wpackagist-plugin/nginx-helper",
-            "version": "1.9.10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/nginx-helper/",
-                "reference": "tags/1.9.10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/nginx-helper.1.9.10.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/nginx-helper/"
-        },
-        {
             "name": "wpackagist-plugin/polylang",
             "version": "2.8.1",
             "source": {
@@ -3806,24 +3694,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/polylang/"
-        },
-        {
-            "name": "wpackagist-plugin/redis-cache",
-            "version": "1.3.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.3.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.3.5.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/redis-cache/"
         },
         {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
@@ -4015,9 +3885,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "frc/batcache": 15
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
