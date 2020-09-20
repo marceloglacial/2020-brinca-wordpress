@@ -43,7 +43,8 @@
     "wpackagist-plugin/wp-headless": "1.0.1",
     "wpackagist-plugin/wp-rest-api-controller": "2.0.3",
     "wpackagist-plugin/wp-rest-api-v2-menus": "0.7.7",
-    "wpackagist-plugin/wuxt-headless-wp-api-extensions": "1.0"
+    "wpackagist-plugin/wuxt-headless-wp-api-extensions": "1.0",
+    "wpackagist-plugin/wp-rest-api-frontpage": "1.0.1"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*",
@@ -59,7 +60,8 @@
         "wpackagist-plugin/wp-headless",
         "wpackagist-plugin/wp-rest-api-controller",
         "wpackagist-plugin/wp-rest-api-v2-menus",
-        "wpackagist-plugin/wuxt-headless-wp-api-extensions"
+        "wpackagist-plugin/wuxt-headless-wp-api-extensions",
+        "wpackagist-plugin/wp-rest-api-frontpage"
       ],
       "web/app/themes/{$name}/": [
         "type:wordpress-theme"
