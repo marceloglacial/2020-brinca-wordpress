@@ -23,6 +23,10 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/marceloglacial/snow-blocks"
     }
   ],
   "minimum-stability": "stable",
@@ -43,7 +47,8 @@
     "wpackagist-plugin/wp-headless": "1.0.1",
     "wpackagist-plugin/wp-rest-api-controller": "2.0.3",
     "wpackagist-plugin/wp-rest-api-v2-menus": "0.7.7",
-    "wpackagist-plugin/wuxt-headless-wp-api-extensions": "1.0"
+    "wpackagist-plugin/wuxt-headless-wp-api-extensions": "1.0",
+    "marceloglacial/snow-blocks": "dev-develop"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*",
@@ -59,7 +64,8 @@
         "wpackagist-plugin/wp-headless",
         "wpackagist-plugin/wp-rest-api-controller",
         "wpackagist-plugin/wp-rest-api-v2-menus",
-        "wpackagist-plugin/wuxt-headless-wp-api-extensions"
+        "wpackagist-plugin/wuxt-headless-wp-api-extensions",
+        "marceloglacial/snow-blocks"
       ],
       "web/app/themes/{$name}/": [
         "type:wordpress-theme"
