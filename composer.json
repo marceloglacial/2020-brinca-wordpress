@@ -48,6 +48,7 @@
     "wpackagist-plugin/wp-rest-api-controller": "2.0.3",
     "wpackagist-plugin/wp-rest-api-v2-menus": "0.7.7",
     "wpackagist-plugin/wuxt-headless-wp-api-extensions": "1.0",
+    "wpackagist-plugin/better-rest-api-featured-images": "1.2.1",
     "marceloglacial/snow-blocks": "dev-develop"
   },
   "require-dev": {
@@ -65,6 +66,7 @@
         "wpackagist-plugin/wp-rest-api-controller",
         "wpackagist-plugin/wp-rest-api-v2-menus",
         "wpackagist-plugin/wuxt-headless-wp-api-extensions",
+        "wpackagist-plugin/better-rest-api-featured-images",
         "marceloglacial/snow-blocks"
       ],
       "web/app/themes/{$name}/": [
