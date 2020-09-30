@@ -7,7 +7,8 @@ services:
       - memcached
     image: quay.io/presslabs/wordpress-runtime:bedrock
     volumes:
-      - ./:/app
+      # - ./:/app
+      - ./:/app:rw,cached
     ports:
       - '8080:8080'
     restart: always

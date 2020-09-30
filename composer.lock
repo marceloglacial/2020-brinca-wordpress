@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7388406c5efd544ecf24946ff652236d",
+    "content-hash": "0997d550e17bb483b0ef39d77532fd94",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -292,16 +292,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "114f819054a2ea7db03287f5efb757e2af6e4079"
+                "reference": "38276325bd896f90dfcfe30029aa5db40df387a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/114f819054a2ea7db03287f5efb757e2af6e4079",
-                "reference": "114f819054a2ea7db03287f5efb757e2af6e4079",
+                "url": "https://api.github.com/repos/composer/semver/zipball/38276325bd896f90dfcfe30029aa5db40df387a7",
+                "reference": "38276325bd896f90dfcfe30029aa5db40df387a7",
                 "shasum": ""
             },
             "require": {
@@ -363,7 +363,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-09T09:34:06+00:00"
+            "time": "2020-09-27T13:13:07+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -742,12 +742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marceloglacial/snow-blocks.git",
-                "reference": "251578785c0bf09f27d2a53aa03635efee11ba8f"
+                "reference": "b40224fd9ff74a5fc721154d34da03dbc9625b75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/251578785c0bf09f27d2a53aa03635efee11ba8f",
-                "reference": "251578785c0bf09f27d2a53aa03635efee11ba8f",
+                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/b40224fd9ff74a5fc721154d34da03dbc9625b75",
+                "reference": "b40224fd9ff74a5fc721154d34da03dbc9625b75",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
                 "source": "https://github.com/marceloglacial/snow-blocks/tree/develop",
                 "issues": "https://github.com/marceloglacial/snow-blocks/issues"
             },
-            "time": "2020-09-23T03:08:12+00:00"
+            "time": "2020-09-23T04:20:46+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -3681,6 +3681,24 @@
             ],
             "description": "Programmatically edit a wp-config.php file.",
             "time": "2020-07-05T12:30:35+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/better-rest-api-featured-images",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/better-rest-api-featured-images/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-rest-api-featured-images.1.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/better-rest-api-featured-images/"
         },
         {
             "name": "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
