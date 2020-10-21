@@ -21,6 +21,8 @@ Brazil-Canada Community Association's website.
 
 ## How to Install
 
+<!-- TODO: Add all the steps to setup env variables on Heroku -->
+
 ```
 composer update
 ```
