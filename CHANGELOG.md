@@ -1,9 +1,44 @@
-## Changelog
+# Changelog
 
-#### 0.2 (2017-06-04)
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.0.2] - 2017-01-30
+
+### Changed
+
 * Bedrock 1.7.9
 * WordPress 4.7.5
 
-#### 0.1 (2017-01-30)
+## [0.0.1] - 2017-01-30
+
+### Added
+
 * Bedrock 1.7.5 (2017-01-26)
 * WordPress 4.7.2
+
+
+# Changelog Notes
+
+A good change log sticks to these principles:
+
+- It’s made for humans, not machines, so legibility is crucial.
+- List releases in reverse-chronological order (newest on top).
+- Write all dates in `YYYY-MM-DD` format. (Example: `2012-06-02` for `June 2nd, 2012`.) It’s international, sensible, and language-independent.
+
+Each version should:
+
+- List its release date in the above format.
+- Group changes to describe their impact on the project, as follows:
+  - `Added` for new features.
+  - `Changed` for changes in existing functionality.
+  - `Deprecated` for once-stable features removed in upcoming releases.
+  - `Removed` for deprecated features removed in this release.
+  - `Fixed` for any bug fixes.
+  - `Security` to invite users to upgrade in case of vulnerabilities.
+
+Always have an `Unreleased` section at the top for keeping track of any changes. This serves two purposes:
+
+- People can see what changes they might expect in upcoming releases
+- At release time, you just have to change `Unreleased` to the version number and add a new `Unreleased` header at the top.

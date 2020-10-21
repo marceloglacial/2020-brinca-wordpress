@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53466a81989b5259bd8757793241866e",
+    "content-hash": "0997d550e17bb483b0ef39d77532fd94",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -292,16 +292,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "114f819054a2ea7db03287f5efb757e2af6e4079"
+                "reference": "38276325bd896f90dfcfe30029aa5db40df387a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/114f819054a2ea7db03287f5efb757e2af6e4079",
-                "reference": "114f819054a2ea7db03287f5efb757e2af6e4079",
+                "url": "https://api.github.com/repos/composer/semver/zipball/38276325bd896f90dfcfe30029aa5db40df387a7",
+                "reference": "38276325bd896f90dfcfe30029aa5db40df387a7",
                 "shasum": ""
             },
             "require": {
@@ -363,7 +363,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-09T09:34:06+00:00"
+            "time": "2020-09-27T13:13:07+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -735,6 +735,47 @@
             ],
             "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
             "time": "2017-01-11T19:10:05+00:00"
+        },
+        {
+            "name": "marceloglacial/snow-blocks",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marceloglacial/snow-blocks.git",
+                "reference": "b40224fd9ff74a5fc721154d34da03dbc9625b75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/b40224fd9ff74a5fc721154d34da03dbc9625b75",
+                "reference": "b40224fd9ff74a5fc721154d34da03dbc9625b75",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.*",
+                "php": ">=7.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcelo Glacial",
+                    "email": "glacial@gmail.com",
+                    "homepage": "https://marceloglacial.com"
+                }
+            ],
+            "description": "Snow Blocks",
+            "homepage": "https://github.com/marceloglacial/snow-blocks/settings",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/marceloglacial/snow-blocks/tree/develop",
+                "issues": "https://github.com/marceloglacial/snow-blocks/issues"
+            },
+            "time": "2020-09-23T04:20:46+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -3642,6 +3683,24 @@
             "time": "2020-07-05T12:30:35+00:00"
         },
         {
+            "name": "wpackagist-plugin/better-rest-api-featured-images",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/better-rest-api-featured-images/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-rest-api-featured-images.1.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/better-rest-api-featured-images/"
+        },
+        {
             "name": "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
             "version": "2.1.9",
             "source": {
@@ -3701,11 +3760,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
-                "reference": "trunk"
+                "reference": "tags/1.11.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip?timestamp=1503913160"
+                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.1.11.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3789,16 +3848,16 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v179",
+            "version": "v180",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "caa1d9171f3b3a88b31e81dc303066a77b9871c6"
+                "reference": "bdc35a681196447f32985f8a703ed3b50ab4627d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/caa1d9171f3b3a88b31e81dc303066a77b9871c6",
-                "reference": "caa1d9171f3b3a88b31e81dc303066a77b9871c6",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/bdc35a681196447f32985f8a703ed3b50ab4627d",
+                "reference": "bdc35a681196447f32985f8a703ed3b50ab4627d",
                 "shasum": ""
             },
             "bin": [
@@ -3829,7 +3888,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2020-08-13T22:57:50+00:00"
+            "time": "2020-09-15T22:54:51+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -3885,7 +3944,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "marceloglacial/snow-blocks": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
