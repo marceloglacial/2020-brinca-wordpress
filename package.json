@@ -1,0 +1,21 @@
+{
+  "name": "2020-brinca-wordpress",
+  "version": "1.0.0",
+  "description": "![Heroku](https://pyheroku-badge.herokuapp.com/?app=brinca-2020)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "docker-compose up -d",
+    "stop": "docker-compose down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloglacial/2020-brinca-wordpress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marceloglacial/2020-brinca-wordpress/issues"
+  },
+  "homepage": "https://github.com/marceloglacial/2020-brinca-wordpress#readme"
+}

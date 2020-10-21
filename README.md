@@ -3,21 +3,40 @@
 # Brinca 2020 - WordPress
 Brazil-Canada Community Association's website.
 
+## Live Demo
+
+- <a href="https://brinca-2020.herokuapp.com/">Brinca 2020 (Heroku)</a>
+
+
 ## Stack and Features
 
 - CMS: <a href="https://wordpress.org/">WordPress</a>
 - PHP dependency Manager: <a href="http://getcomposer.org/">Composer</a>
 - Project structure: <a href="https://roots.io/bedrock/">BedRock</a>
 - Deployment: <a href="https://github.com/PhilippHeuer/wordpress-heroku">WordPress on Heroku</a>
+- Heroku Keep Alive: <a href='https://uptimerobot.com/'>Uptime Robot</a>
 - Image CDN: <a href="https://cloudinary.com/">Cloudinary</a>
 - Site Builder: <a href="https://github.com/marceloglacial/snow-blocks">Snow Blocks</a>
+- Local development: <a href='https://www.docker.com/'>Docker</a>
 
 ## How to Install
+
+<!-- TODO: Add all the steps to setup env variables on Heroku -->
 
 ```
 composer update
 ```
 
-## Live Demo
+## Local development
 
-- <a href="https://brinca-2020.herokuapp.com/">Brinca 2020 (Heroku)</a>
+Start docker desktop then:
+
+```
+npm run dev
+```
+
+To stop the docker container:
+
+```
+npm run stop
+```
