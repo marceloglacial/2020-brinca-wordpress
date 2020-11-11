@@ -742,12 +742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marceloglacial/snow-blocks.git",
-                "reference": "b40224fd9ff74a5fc721154d34da03dbc9625b75"
+                "reference": "48419db4e55ed0c493b9f8916868fc6ab68da442"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/b40224fd9ff74a5fc721154d34da03dbc9625b75",
-                "reference": "b40224fd9ff74a5fc721154d34da03dbc9625b75",
+                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/48419db4e55ed0c493b9f8916868fc6ab68da442",
+                "reference": "48419db4e55ed0c493b9f8916868fc6ab68da442",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
                 "source": "https://github.com/marceloglacial/snow-blocks/tree/develop",
                 "issues": "https://github.com/marceloglacial/snow-blocks/issues"
             },
-            "time": "2020-09-23T04:20:46+00:00"
+            "time": "2020-11-11T02:20:01+00:00"
         },
         {
             "name": "mustache/mustache",
