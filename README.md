@@ -22,24 +22,14 @@ Brazil-Canada Community Association's website.
 ## How to Install
 
 1. Config your `.env` file using `.env.example` as model
-2. Run composer to istall dependencies
-
-```
-composer update
-```
+2. Run composer to install dependencies: `composer update`
+3. Set Wordpress permalinks to `Post Name`
 
 NOTE: You need to setup your env variable on your server too.
 
 ## Local development
 
-Start docker desktop then:
-
 ```
+composer update
 npm run dev
-```
-
-To stop the docker container:
-
-```
-npm run stop
 ```
