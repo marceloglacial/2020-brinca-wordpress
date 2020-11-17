@@ -4,7 +4,7 @@
   "description": "![Heroku](https://pyheroku-badge.herokuapp.com/?app=brinca-2020)",
   "main": "index.js",
   "scripts": {
-    "dev": "docker-compose up -d",
+    "dev": "echo 'Loading Docker ... (please wait)' && open /Applications/Docker.app && sleep 30 && docker-compose up -d",
     "stop": "docker-compose down"
   },
   "repository": {
