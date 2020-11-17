@@ -33,23 +33,23 @@
   "require": {
     "php": ">=7.0",
     "ext-gettext": "*",
-    "composer/installers": "1.5.0",
+    "composer/installers": ">=1.5.0",
     "vlucas/phpdotenv": "2.4.0",
-    "wp-cli/wp-cli": "1.4.1",
+    "wp-cli/wp-cli": ">=1.4.1",
     "oscarotero/env": "^1.1.0",
-    "koodimonni/composer-dropin-installer": "1.1.0",
+    "koodimonni/composer-dropin-installer": ">=1.1.0",
     "johnpbloch/wordpress": "5.5.3",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/sendgrid-email-delivery-simplified": "1.11.7",
     "wpackagist-plugin/gutenberg": "8.8.0",
     "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn": "2.3.0",
     "wpackagist-plugin/polylang": "2.8.1",
-    "wpackagist-plugin/wp-headless": "1.0.1",
+    "wpackagist-plugin/wp-headless": ">=1.0.1",
     "wpackagist-plugin/wp-rest-api-controller": "2.0.3",
     "wpackagist-plugin/wp-rest-api-v2-menus": "0.7.7",
     "wpackagist-plugin/wuxt-headless-wp-api-extensions": "1.0",
     "wpackagist-plugin/better-rest-api-featured-images": "1.2.1",
-    "marceloglacial/snow-blocks": "dev-develop"
+    "marceloglacial/snow-blocks": "dev-master"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*",
