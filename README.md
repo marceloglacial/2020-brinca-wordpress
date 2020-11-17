@@ -21,11 +21,14 @@ Brazil-Canada Community Association's website.
 
 ## How to Install
 
-<!-- TODO: Add all the steps to setup env variables on Heroku -->
+1. Config your `.env` file using `.env.example` as model
+2. Run composer to istall dependencies
 
 ```
 composer update
 ```
+
+NOTE: You need to setup your env variable on your server too.
 
 ## Local development
 
