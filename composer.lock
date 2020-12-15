@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "775c56128590180063daff585daa03a3",
+    "content-hash": "16fc58b6ccfdc3a89349047826800896",
     "packages": [
         {
             "name": "composer/installers",
@@ -149,20 +149,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.5.3",
+            "version": "5.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "f706595a0be04446e1c6c4ff984be414d1a3064b"
+                "reference": "3055975734646c8d0b8caf7b5af168ced6ec4309"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/f706595a0be04446e1c6c4ff984be414d1a3064b",
-                "reference": "f706595a0be04446e1c6c4ff984be414d1a3064b",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/3055975734646c8d0b8caf7b5af168ced6ec4309",
+                "reference": "3055975734646c8d0b8caf7b5af168ced6ec4309",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.5.3",
+                "johnpbloch/wordpress-core": "5.6.0",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -184,27 +184,20 @@
                 "cms",
                 "wordpress"
             ],
-            "support": {
-                "forum": "http://wordpress.org/support/",
-                "irc": "irc://irc.freenode.net/wordpress",
-                "issues": "http://core.trac.wordpress.org/",
-                "source": "http://core.trac.wordpress.org/browser",
-                "wiki": "http://codex.wordpress.org/"
-            },
-            "time": "2020-10-30T20:48:17+00:00"
+            "time": "2020-12-08T22:34:35+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.5.3",
+            "version": "5.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "6f25ae53f3d4058f8dd702c097d5a4a45667af61"
+                "reference": "f074617dd69f466302836d1ae5de75c0bd7b6dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/6f25ae53f3d4058f8dd702c097d5a4a45667af61",
-                "reference": "6f25ae53f3d4058f8dd702c097d5a4a45667af61",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/f074617dd69f466302836d1ae5de75c0bd7b6dfd",
+                "reference": "f074617dd69f466302836d1ae5de75c0bd7b6dfd",
                 "shasum": ""
             },
             "require": {
@@ -212,7 +205,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.5.3"
+                "wordpress/core-implementation": "5.6.0"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -232,14 +225,7 @@
                 "cms",
                 "wordpress"
             ],
-            "support": {
-                "forum": "https://wordpress.org/support/",
-                "irc": "irc://irc.freenode.net/wordpress",
-                "issues": "https://core.trac.wordpress.org/",
-                "source": "https://core.trac.wordpress.org/browser",
-                "wiki": "https://codex.wordpress.org/"
-            },
-            "time": "2020-10-30T20:48:12+00:00"
+            "time": "2020-12-08T22:34:23+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -349,19 +335,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marceloglacial/snow-blocks.git",
-                "reference": "0b31b9cfb81809c9ef7a50a9bf3ec9e0655a86b7"
+                "reference": "d14005c180ddc0668c53eadada4b57c01b06f3ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/0b31b9cfb81809c9ef7a50a9bf3ec9e0655a86b7",
-                "reference": "0b31b9cfb81809c9ef7a50a9bf3ec9e0655a86b7",
+                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/d14005c180ddc0668c53eadada4b57c01b06f3ca",
+                "reference": "d14005c180ddc0668c53eadada4b57c01b06f3ca",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "1.*",
                 "php": ">=7.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "license": [
                 "MIT"
@@ -380,10 +365,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.4.0",
+                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.5.0",
                 "issues": "https://github.com/marceloglacial/snow-blocks/issues"
             },
-            "time": "2020-11-18T05:47:36+00:00"
+            "time": "2020-12-04T03:38:21+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -1042,16 +1027,16 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v183",
+            "version": "v187",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "1224f62dfb47031899630a14806a56cfc70a6db8"
+                "reference": "9a4c8992a3f1ce3c887cd184920a1765d5b05b73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/1224f62dfb47031899630a14806a56cfc70a6db8",
-                "reference": "1224f62dfb47031899630a14806a56cfc70a6db8",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/9a4c8992a3f1ce3c887cd184920a1765d5b05b73",
+                "reference": "9a4c8992a3f1ce3c887cd184920a1765d5b05b73",
                 "shasum": ""
             },
             "bin": [
@@ -1082,11 +1067,7 @@
                 "nginx",
                 "php"
             ],
-            "support": {
-                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
-                "source": "https://github.com/heroku/heroku-buildpack-php/tree/v183"
-            },
-            "time": "2020-11-13T08:54:59+00:00"
+            "time": "2020-12-09T14:17:53+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -1161,5 +1142,5 @@
         "php": "7.0",
         "ext-gettext": "1.0"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
