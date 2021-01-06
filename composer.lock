@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0a93d6212598c71bff10b575d30ea9b",
+    "content-hash": "22b80b8a572dc23cfe88a5f8c7ad7b9e",
     "packages": [
         {
             "name": "composer/installers",
@@ -184,6 +184,13 @@
                 "cms",
                 "wordpress"
             ],
+            "support": {
+                "forum": "http://wordpress.org/support/",
+                "irc": "irc://irc.freenode.net/wordpress",
+                "issues": "http://core.trac.wordpress.org/",
+                "source": "http://core.trac.wordpress.org/browser",
+                "wiki": "http://codex.wordpress.org/"
+            },
             "time": "2020-12-08T22:34:35+00:00"
         },
         {
@@ -225,6 +232,13 @@
                 "cms",
                 "wordpress"
             ],
+            "support": {
+                "forum": "https://wordpress.org/support/",
+                "irc": "irc://irc.freenode.net/wordpress",
+                "issues": "https://core.trac.wordpress.org/",
+                "source": "https://core.trac.wordpress.org/browser",
+                "wiki": "https://codex.wordpress.org/"
+            },
             "time": "2020-12-08T22:34:23+00:00"
         },
         {
@@ -331,16 +345,16 @@
         },
         {
             "name": "marceloglacial/snow-blocks",
-            "version": "0.11.0",
+            "version": "0.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marceloglacial/snow-blocks.git",
-                "reference": "153cc82cc0ff65564a9cbf5515ddd3456d592cff"
+                "reference": "fa722d866888d2e5a13696e6cbee55be5bacd020"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/153cc82cc0ff65564a9cbf5515ddd3456d592cff",
-                "reference": "153cc82cc0ff65564a9cbf5515ddd3456d592cff",
+                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/fa722d866888d2e5a13696e6cbee55be5bacd020",
+                "reference": "fa722d866888d2e5a13696e6cbee55be5bacd020",
                 "shasum": ""
             },
             "require": {
@@ -365,10 +379,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.11.0",
+                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.12.0",
                 "issues": "https://github.com/marceloglacial/snow-blocks/issues"
             },
-            "time": "2020-12-22T22:34:14+00:00"
+            "time": "2021-01-06T22:22:39+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -1067,6 +1081,10 @@
                 "nginx",
                 "php"
             ],
+            "support": {
+                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
+                "source": "https://github.com/heroku/heroku-buildpack-php/tree/v187"
+            },
             "time": "2020-12-09T14:17:53+00:00"
         },
         {
@@ -1140,5 +1158,5 @@
         "php": "7.0",
         "ext-gettext": "1.0"
     },
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
