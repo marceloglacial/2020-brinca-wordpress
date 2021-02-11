@@ -326,16 +326,16 @@
         },
         {
             "name": "marceloglacial/snow-blocks",
-            "version": "0.22.0",
+            "version": "0.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marceloglacial/snow-blocks.git",
-                "reference": "ad1f794b73475704da27e2b29dea8f6ce161cef2"
+                "reference": "d7f2cb34d611ded52768d978c44b625728b943c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/ad1f794b73475704da27e2b29dea8f6ce161cef2",
-                "reference": "ad1f794b73475704da27e2b29dea8f6ce161cef2",
+                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/d7f2cb34d611ded52768d978c44b625728b943c8",
+                "reference": "d7f2cb34d611ded52768d978c44b625728b943c8",
                 "shasum": ""
             },
             "require": {
@@ -360,10 +360,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.22.0",
+                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.23.0",
                 "issues": "https://github.com/marceloglacial/snow-blocks/issues"
             },
-            "time": "2021-01-22T04:09:40+00:00"
+            "time": "2021-02-11T01:13:40+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -839,15 +839,15 @@
         },
         {
             "name": "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cloudinary-image-management-and-manipulation-in-the-cloud-cdn/",
-                "reference": "tags/2.5.0"
+                "reference": "tags/2.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn.2.5.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn.2.6.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -857,15 +857,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "9.8.0",
+            "version": "9.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/9.8.0"
+                "reference": "tags/9.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.9.8.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.9.9.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -875,15 +875,15 @@
         },
         {
             "name": "wpackagist-plugin/polylang",
-            "version": "2.9.1",
+            "version": "2.9.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/polylang/",
-                "reference": "tags/2.9.1"
+                "reference": "tags/2.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/polylang.2.9.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/polylang.2.9.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -949,21 +949,19 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v188",
+            "version": "v189",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "9e577b876c529a24c0ba18d2df063d1a06c55af7"
+                "reference": "967a2b977b849d8d11112e40401c04927bda3f64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/9e577b876c529a24c0ba18d2df063d1a06c55af7",
-                "reference": "9e577b876c529a24c0ba18d2df063d1a06c55af7",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/967a2b977b849d8d11112e40401c04927bda3f64",
+                "reference": "967a2b977b849d8d11112e40401c04927bda3f64",
                 "shasum": ""
             },
             "bin": [
-                "bin/heroku-hhvm-apache2",
-                "bin/heroku-hhvm-nginx",
                 "bin/heroku-php-apache2",
                 "bin/heroku-php-nginx"
             ],
@@ -978,18 +976,17 @@
                     "email": "dz@heroku.com"
                 }
             ],
-            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
             "homepage": "https://github.com/heroku/heroku-buildpack-php",
             "keywords": [
                 "apache",
                 "apache2",
                 "foreman",
                 "heroku",
-                "hhvm",
                 "nginx",
                 "php"
             ],
-            "time": "2021-01-08T20:33:01+00:00"
+            "time": "2021-02-05T19:38:34+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
