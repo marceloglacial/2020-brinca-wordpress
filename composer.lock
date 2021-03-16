@@ -152,20 +152,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.6.1",
+            "version": "5.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "d7a597988102967cdfc28851b6b897d018613823"
+                "reference": "22ea3c6aa631e296c528f58a67371fb2a5e674f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/d7a597988102967cdfc28851b6b897d018613823",
-                "reference": "d7a597988102967cdfc28851b6b897d018613823",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/22ea3c6aa631e296c528f58a67371fb2a5e674f2",
+                "reference": "22ea3c6aa631e296c528f58a67371fb2a5e674f2",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.6.1",
+                "johnpbloch/wordpress-core": "5.7.0",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -187,20 +187,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2021-02-03T21:27:41+00:00"
+            "time": "2021-03-09T20:32:28+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.6.1",
+            "version": "5.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "82592ec73d42cf784da38adb0028a24dbacab1b4"
+                "reference": "8b057056692ca196aaa7a7ddd915f29426922c6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/82592ec73d42cf784da38adb0028a24dbacab1b4",
-                "reference": "82592ec73d42cf784da38adb0028a24dbacab1b4",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/8b057056692ca196aaa7a7ddd915f29426922c6d",
+                "reference": "8b057056692ca196aaa7a7ddd915f29426922c6d",
                 "shasum": ""
             },
             "require": {
@@ -208,7 +208,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.6.1"
+                "wordpress/core-implementation": "5.7.0"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -228,7 +228,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2021-02-03T21:27:35+00:00"
+            "time": "2021-03-09T20:32:23+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -709,16 +709,16 @@
         },
         {
             "name": "wp-cli/php-cli-tools",
-            "version": "v0.11.11",
+            "version": "v0.11.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "fe9c7c44a9e1bf2196ec51dc38da0593dbf2993f"
+                "reference": "e472e08489f7504d9e8c5c5a057e1419cd1b2b3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/fe9c7c44a9e1bf2196ec51dc38da0593dbf2993f",
-                "reference": "fe9c7c44a9e1bf2196ec51dc38da0593dbf2993f",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/e472e08489f7504d9e8c5c5a057e1419cd1b2b3e",
+                "reference": "e472e08489f7504d9e8c5c5a057e1419cd1b2b3e",
                 "shasum": ""
             },
             "require": {
@@ -739,14 +739,14 @@
             ],
             "authors": [
                 {
-                    "name": "James Logsdon",
-                    "email": "jlogsdon@php.net",
-                    "role": "Developer"
-                },
-                {
                     "name": "Daniel Bachhuber",
                     "email": "daniel@handbuilt.co",
                     "role": "Maintainer"
+                },
+                {
+                    "name": "James Logsdon",
+                    "email": "jlogsdon@php.net",
+                    "role": "Developer"
                 }
             ],
             "description": "Console utilities for PHP",
@@ -755,7 +755,7 @@
                 "cli",
                 "console"
             ],
-            "time": "2018-09-04T13:28:00+00:00"
+            "time": "2021-03-03T12:43:49+00:00"
         },
         {
             "name": "wp-cli/wp-cli",
@@ -839,15 +839,15 @@
         },
         {
             "name": "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
-            "version": "2.6.0",
+            "version": "2.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cloudinary-image-management-and-manipulation-in-the-cloud-cdn/",
-                "reference": "tags/2.6.0"
+                "reference": "tags/2.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn.2.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn.2.7.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -857,15 +857,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "9.9.1",
+            "version": "10.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/9.9.1"
+                "reference": "tags/10.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.9.9.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.10.1.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -875,15 +875,15 @@
         },
         {
             "name": "wpackagist-plugin/polylang",
-            "version": "2.9.2",
+            "version": "3.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/polylang/",
-                "reference": "tags/2.9.2"
+                "reference": "tags/3.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/polylang.2.9.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/polylang.3.0.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -911,15 +911,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-rest-api-controller",
-            "version": "2.0.3",
+            "version": "2.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-rest-api-controller/",
-                "reference": "tags/2.0.3"
+                "reference": "tags/2.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rest-api-controller.2.0.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-rest-api-controller.2.0.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -949,16 +949,16 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v189",
+            "version": "v190",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "967a2b977b849d8d11112e40401c04927bda3f64"
+                "reference": "3e49045a63ed480378c9d3d3e364acbfcc06eb3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/967a2b977b849d8d11112e40401c04927bda3f64",
-                "reference": "967a2b977b849d8d11112e40401c04927bda3f64",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/3e49045a63ed480378c9d3d3e364acbfcc06eb3f",
+                "reference": "3e49045a63ed480378c9d3d3e364acbfcc06eb3f",
                 "shasum": ""
             },
             "bin": [
@@ -986,7 +986,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2021-02-05T19:38:34+00:00"
+            "time": "2021-03-04T23:15:04+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
