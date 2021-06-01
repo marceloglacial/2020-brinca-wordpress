@@ -328,16 +328,16 @@
         },
         {
             "name": "marceloglacial/snow-blocks",
-            "version": "0.24.0",
+            "version": "0.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marceloglacial/snow-blocks.git",
-                "reference": "7dfc71aa631327de447333ee7da06f06215c51bb"
+                "reference": "17b2d6113a3c996585e714b5b1be40542a9631b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/7dfc71aa631327de447333ee7da06f06215c51bb",
-                "reference": "7dfc71aa631327de447333ee7da06f06215c51bb",
+                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/17b2d6113a3c996585e714b5b1be40542a9631b8",
+                "reference": "17b2d6113a3c996585e714b5b1be40542a9631b8",
                 "shasum": ""
             },
             "require": {
@@ -362,10 +362,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.24.0",
+                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.25.0",
                 "issues": "https://github.com/marceloglacial/snow-blocks/issues"
             },
-            "time": "2021-06-01T03:31:33+00:00"
+            "time": "2021-06-01T03:51:27+00:00"
         },
         {
             "name": "mustache/mustache",
