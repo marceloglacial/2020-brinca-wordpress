@@ -328,16 +328,16 @@
         },
         {
             "name": "marceloglacial/snow-blocks",
-            "version": "0.25.0",
+            "version": "0.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marceloglacial/snow-blocks.git",
-                "reference": "17b2d6113a3c996585e714b5b1be40542a9631b8"
+                "reference": "a06eac23eaee77ac4abbdc46af3eff9013475c55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/17b2d6113a3c996585e714b5b1be40542a9631b8",
-                "reference": "17b2d6113a3c996585e714b5b1be40542a9631b8",
+                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/a06eac23eaee77ac4abbdc46af3eff9013475c55",
+                "reference": "a06eac23eaee77ac4abbdc46af3eff9013475c55",
                 "shasum": ""
             },
             "require": {
@@ -362,10 +362,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.25.0",
+                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.27.0",
                 "issues": "https://github.com/marceloglacial/snow-blocks/issues"
             },
-            "time": "2021-06-01T03:51:27+00:00"
+            "time": "2021-06-08T02:13:55+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -458,16 +458,16 @@
         },
         {
             "name": "rmccue/requests",
-            "version": "v1.8.0",
+            "version": "v1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/Requests.git",
-                "reference": "afbe4790e4def03581c4a0963a1e8aa01f6030f1"
+                "reference": "82e6936366eac3af4d836c18b9d8c31028fe4cd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/Requests/zipball/afbe4790e4def03581c4a0963a1e8aa01f6030f1",
-                "reference": "afbe4790e4def03581c4a0963a1e8aa01f6030f1",
+                "url": "https://api.github.com/repos/WordPress/Requests/zipball/82e6936366eac3af4d836c18b9d8c31028fe4cd5",
+                "reference": "82e6936366eac3af4d836c18b9d8c31028fe4cd5",
                 "shasum": ""
             },
             "require": {
@@ -510,7 +510,7 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2021-04-27T11:05:25+00:00"
+            "time": "2021-06-04T09:56:25+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -870,15 +870,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "10.7.1",
+            "version": "10.7.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/10.7.1"
+                "reference": "tags/10.7.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.10.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.10.7.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -962,16 +962,16 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v192",
+            "version": "v193",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "360fa3ee3caad234760048da8bc8fefd35609ea9"
+                "reference": "3ed73cef52173add127fdce06ec7dd936dcb9b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/360fa3ee3caad234760048da8bc8fefd35609ea9",
-                "reference": "360fa3ee3caad234760048da8bc8fefd35609ea9",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/3ed73cef52173add127fdce06ec7dd936dcb9b23",
+                "reference": "3ed73cef52173add127fdce06ec7dd936dcb9b23",
                 "shasum": ""
             },
             "bin": [
@@ -999,7 +999,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2021-05-06T16:53:55+00:00"
+            "time": "2021-06-07T20:53:28+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
