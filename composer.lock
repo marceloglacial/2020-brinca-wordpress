@@ -328,16 +328,16 @@
         },
         {
             "name": "marceloglacial/snow-blocks",
-            "version": "0.28.0",
+            "version": "0.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marceloglacial/snow-blocks.git",
-                "reference": "7699d83d4723a1eee42aaa609c6cdcf91f39884e"
+                "reference": "0589233445939de62f6cda36727639d785d3bc23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/7699d83d4723a1eee42aaa609c6cdcf91f39884e",
-                "reference": "7699d83d4723a1eee42aaa609c6cdcf91f39884e",
+                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/0589233445939de62f6cda36727639d785d3bc23",
+                "reference": "0589233445939de62f6cda36727639d785d3bc23",
                 "shasum": ""
             },
             "require": {
@@ -362,10 +362,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.28.0",
+                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.29.0",
                 "issues": "https://github.com/marceloglacial/snow-blocks/issues"
             },
-            "time": "2021-06-08T23:30:44+00:00"
+            "time": "2021-06-14T22:34:35+00:00"
         },
         {
             "name": "mustache/mustache",
@@ -870,15 +870,15 @@
         },
         {
             "name": "wpackagist-plugin/gutenberg",
-            "version": "10.7.4",
+            "version": "10.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gutenberg/",
-                "reference": "tags/10.7.4"
+                "reference": "tags/10.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gutenberg.10.7.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.10.8.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
